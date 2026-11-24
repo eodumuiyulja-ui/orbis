@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko" data-anim="on">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050a14">
+<title>ORBIS // DIMENSION MONITOR</title>
+<link rel="stylesheet" href="css/orbis.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-page="monitor">
+<header id="top"></header>
+<main>
+<section class="ph"><p class="kicker mono">ORBIS // DIMENSION MONITOR</p><h2>차원 모니터</h2><p class="lead">오르비스 관측 시스템이 차원별 안정성과 오염 수치를 감시합니다.</p></section>
+<p id="ms" class="mono sm" style="margin-bottom:12px"></p><div class="mon"><div class="rdw"><svg id="rd" viewBox="-100 -100 200 200" aria-label="관측 레이더" role="img"><circle r="90" fill="none" stroke="#1d3548"/><circle r="60" fill="none" stroke="#1d3548"/><circle r="30" fill="none" stroke="#1d3548"/><path d="M-90 0H90M0 -90V90" stroke="#1d3548" stroke-width=".6"/><g><path d="M0 0L90 0A90 90 0 0 0 63.6 -63.6Z" fill="rgba(62,230,216,.16)"/><line x1="0" y1="0" x2="90" y2="0" stroke="#3ee6d8" stroke-width=".8"/><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/></g><g id="blips"></g></svg></div><div id="mr" class="mrs"></div></div><h3>RECENT OBSERVATIONS</h3><div id="ml" class="mlg mono"></div><h3>UNREGISTERED</h3><div id="vp" class="vp mono"><div class="ln">UNREGISTERED DIMENSIONAL SIGNAL</div><div class="ln">&nbsp;</div><div class="ln">OBSERVATION FAILED.</div><div class="ln">SOURCE: UNKNOWN</div><div class="ln">...</div><div class="ln">SIGNAL STILL ACTIVE.</div></div>
+</main>
+
+<div id="fade"></div>
+<script src="js/orbis.js"></script>
+<script src="js/shell.js"></script>
+<script src="js/data.js"></script>
+<script src="js/monitor.js"></script>
+</body>
+</html>
